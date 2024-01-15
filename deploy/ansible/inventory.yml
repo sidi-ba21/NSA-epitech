@@ -1,0 +1,10 @@
+---
+all:
+  vars:
+    ansible_port: "{{ lookup('env', 'ANSIBLE_PORT') }}"
+    ansible_user: "{{ lookup('env', 'ANSIBLE_USER') }}"
+    ansible_password: "{{ lookup('env', 'ANSIBLE_SUDO_PASSWORD') }}"
+    ansible_sudo_pass: "{{ lookup('env', 'ANSIBLE_SUDO_PASSWORD') }}"
+  hosts:
+  # TODO: Add hosts
+...

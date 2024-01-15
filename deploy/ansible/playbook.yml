@@ -1,0 +1,8 @@
+---
+- name: "Server configuration"
+  become: true
+  hosts:
+  # TODO : Add host
+  roles:
+    - welcome
+...

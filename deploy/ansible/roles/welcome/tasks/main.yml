@@ -1,0 +1,5 @@
+---
+- name: "Change the welcome message"
+  copy:
+    content: "Welcome!"
+    dest: /etc/motd
